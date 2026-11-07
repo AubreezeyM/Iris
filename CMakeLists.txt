@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 4.4)
 set(CMAKE_CXX_COMPILER g++)
 project(iris)
 
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp src/Application.cpp)
 set(BUILD_SHARED_LIBS OFF)
 
 add_subdirectory(vendor)
